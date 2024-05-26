@@ -9,9 +9,13 @@ Together, the data and the DBMS, along with the applications that are associated
 ## Key Components of a Database
 
 **Data**: The actual information stored in the database.
+
 **DBMS (Database Management System)**: The software that manages and interacts with the database.
+
 **Schema**: The structure of the database defined in a formal language supported by the DBMS.
+
 **Tables**: The basic storage units in a database where data is stored in rows and columns.
+
 
 ## Types of Databases
 
@@ -34,19 +38,19 @@ They can handle a wide variety of data models, including key-value, document, co
 
 Types of NoSQL Databases:
 
-Key-Value Stores: Data is stored as a collection of key-value pairs.
+**Key-Value Stores**: Data is stored as a collection of key-value pairs.
 
 Examples: Redis, DynamoDB
 
-Document Stores: Data is stored in documents (typically JSON or XML).
+**Document Stores**: Data is stored in documents (typically JSON or XML).
 
 Examples: MongoDB, CouchDB
 
-Columnar Databases: Data is stored in columns rather than rows.
+**Columnar Databases**: Data is stored in columns rather than rows.
 
 Examples: Apache Cassandra, HBase
 
-Graph Databases: Data is represented as graphs with nodes, edges, and properties.
+**Graph Databases**: Data is represented as graphs with nodes, edges, and properties.
 
 Examples: Neo4j, Amazon Neptune
 
@@ -77,6 +81,7 @@ Examples: ObjectDB, db4o
 Use Cases: Complex data representations, CAD/CAM applications
 
 ### 6. Time-Series Databases
+
 Time-series databases are optimized for handling time-series data, which consists of sequences of data points indexed in time order.
 
 Examples: InfluxDB, TimescaleDB
@@ -84,6 +89,7 @@ Examples: InfluxDB, TimescaleDB
 Use Cases: Monitoring, IoT data, financial data analysis
 
 ### 7. Graph Databases
+
 Graph databases use graph structures with nodes, edges, and properties to represent and store data.
 
 Examples: Neo4j, Amazon Neptune
@@ -91,6 +97,7 @@ Examples: Neo4j, Amazon Neptune
 Use Cases: Social networks, recommendation engines, fraud detection
 
 ### 8. Distributed Databases
+
 Distributed databases are databases that are distributed across multiple physical locations. They can be spread across different computers, networks, or storage devices.
 
 Examples: Google Cloud Spanner, Apache Cassandra
@@ -98,6 +105,7 @@ Examples: Google Cloud Spanner, Apache Cassandra
 Use Cases: Global applications, scalable cloud services
 
 ### 9. Cloud Databases
+
 Cloud databases are databases that run on cloud computing platforms and can be accessed as a service.
 
 Examples: Amazon RDS, Google Cloud SQL, Microsoft Azure SQL Database
@@ -105,6 +113,7 @@ Examples: Amazon RDS, Google Cloud SQL, Microsoft Azure SQL Database
 Use Cases: Scalable web applications, cloud-native applications
 
 ### 10. Hierarchical Databases
+
 Hierarchical databases organize data in a tree-like structure with a single root from which various branches of data emerge.
 
 Examples: IBM Information Management System (IMS)
@@ -112,6 +121,7 @@ Examples: IBM Information Management System (IMS)
 Use Cases: Legacy systems, banking and telecommunications
 
 ## Summary
+
 Databases are essential for storing, organizing, and managing data efficiently. 
 The choice of database type depends on the specific needs and requirements of an application. 
 
