@@ -70,6 +70,7 @@ Microsoft SQL Server is a relational database management system developed by Mic
 ### When to Use SQL Server?
 
 **Windows-based applications** : Best for applications running in a Microsoft environment.
+
 **Business intelligence** : Excellent for reporting and analytics.
 
 ### Example
@@ -122,6 +123,7 @@ Amazon RDS (Relational Database Service) is a managed database service by Amazon
 Use Case: A scalable e-commerce platform
 
 -- Example assumes using MySQL on RDS
+
 ```sql
 CREATE TABLE orders (
     order_id INT AUTO_INCREMENT PRIMARY KEY,
@@ -145,6 +147,7 @@ Google Cloud SQL is a fully-managed relational database service on Google Cloud 
 Use Case: A data-driven web application
 
 -- Example assumes using PostgreSQL on Cloud SQL
+
 ```sql
 CREATE TABLE users (
     user_id SERIAL PRIMARY KEY,
@@ -190,8 +193,9 @@ Amazon Neptune is a fully-managed graph database service optimized for storing a
 ### Example
 Use Case: A social networking site
 
-```gremlin
 // Example using Gremlin for a graph database
+
+```gremlin
 g.addV('person').property('name', 'Alice').as('a')
  .addV('person').property('name', 'Bob').as('b')
  .addE('knows').from('a').to('b');
