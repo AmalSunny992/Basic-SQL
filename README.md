@@ -3,7 +3,7 @@ Welcome to the Basic SQL Learning Repository! This repository is designed to hel
 
 ## Table of Contents
 1. [Introduction to Database](./db.md)
-2. [What is SQL?](./sql.md)
+2. [What is SQL?](./SQL.md)
 3. [Basic SQL Commands](./basic.md)
 4. [Advanced SQL Commands](./advanced.md)
 5. [Different types of DB](./different-databases.md)
